@@ -12,7 +12,8 @@ async def handwrite(_, message: Message):
         name = (
             message.text.split(None, 1)[1]
             if len(message.command) < 3
-            else message.text.split(None, 1)[1].replace(" ", "%20") )
+            else message.text.split(None, 1)[1].replace(" ", "%20")
+        )
         m = await fallen.send_message(
             message.chat.id, "**ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...**\n\nʟᴇᴍᴍᴇ ᴡʀɪᴛᴇ ɪᴛ ᴏɴ ᴍʏ ᴄᴏᴩʏ..."
         )
@@ -37,7 +38,8 @@ sᴜᴄᴄᴇssғᴜʟʟʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ 💘
         name = (
             lol.split(None, 1)[1]
             if len(message.command) < 3
-            else lol.split(None, 1)[1].replace(" ", "%20") )
+            else lol.split(None, 1)[1].replace(" ", "%20")
+        )
         m = await fallen.send_message(
             message.chat.id, "**ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ...**\n\nʟᴇᴍᴍᴇ ᴡʀɪᴛᴇ ɪᴛ ᴏɴ ᴍʏ ᴄᴏᴩʏ..."
         )
